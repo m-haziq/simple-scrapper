@@ -2,7 +2,7 @@ import requests
 import urllib.request
 import time
 from bs4 import BeautifulSoup
-
+from lxml import etree
 
 url = 'http://teamcreek.com'
 response = requests.get(url)
